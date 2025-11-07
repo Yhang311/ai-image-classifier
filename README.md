@@ -48,7 +48,3 @@ streamlit run main.py
 - **GPU 支持**：当前脚本默认使用 CPU，若需 GPU，请安装支持 CUDA 的 TensorFlow 版本。
 - **缓存机制**：模型加载使用 `@st.cache_resource` 进行缓存，重复请求无需重新下载或加载模型。
 
-## 许可证
-
-根据项目实际情况填写许可证信息，例如 MIT、Apache-2.0 等。
-
